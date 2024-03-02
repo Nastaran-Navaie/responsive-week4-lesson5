@@ -49,18 +49,81 @@ h2 {
   font-size: 18px;
   font-weight: 400;
 }
-.yogurt-paragrapgh-title {
-  font-size: 50px;
+.yogurt-paragrapgh-title,
+.weather-paragrapgh-title,
+.dictionary-paragrapgh-title {
+  font-size: 64px;
+  font-family: var(--headings-font-family);
+  font-weight: 900;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  color: black;
+
   font-weight: 600;
 }
-.yogurt-description {
+.yogurt-description,
+.weather-description,
+.dictionary-description {
   font-size: 16px;
+  font-family: var(--paragraph-font-family);
   font-weight: 400;
-
+  padding: 5px 40px 30px 40px;
   line-height: 30px;
+  text-align: justify;
 }
 .btn-launch {
   color: #6c63ff;
+  font-family: var(--paragraph-font-family);
+  font-weight: 600;
   border: 1px solid #6c63ff;
+  border-radius: 4px;
   background-color: white;
+  padding: 18px 30px;
+  margin-left: 40px;
+}
+
+/* all 3 buttons of each paragraph */
+.btn-launch:hover {
+  cursor: pointer;
+  color: #272142;
+  border: 1px solid #6c63ff;
+}
+
+@media (max-width: 900px) {
+  .p-hello {
+    font-size: 15px;
+  }
+  .introduction {
+    text-align: center;
+    padding: none;
+    margin: none;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .yogurt-paragrapgh-title {
+    text-align: center;
+  }
+  .weather-paragrapgh-title {
+    text-align: center;
+  }
+  .dictionary-paragrapgh-title {
+    text-align: center;
+  }
+  .yogurt-paragrapgh-title {
+    padding-top: 30px;
+  }
+  .weather-paragrapgh-title {
+    padding-top: 30px;
+  }
+  .dictionary-paragrapgh-title {
+    padding-top: 30px;
+  }
+  .btn-launch {
+    display: block;
+  }
 }
