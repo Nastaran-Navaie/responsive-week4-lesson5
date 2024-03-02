@@ -45,3 +45,22 @@ h2 {
   background-color: var(--background-color-btn-contact);
   color: #272142;
 }
+.my-projects {
+  font-size: 18px;
+  font-weight: 400;
+}
+.yogurt-paragrapgh-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.yogurt-description {
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 30px;
+}
+.btn-launch {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  background-color: white;
+}
