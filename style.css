@@ -40,7 +40,7 @@ h2 {
   line-height: 27px;
   padding: 18px 30px;
 }
-:hover .btn-contact {
+.btn-contact:hover {
   cursor: pointer;
   background-color: var(--background-color-btn-contact);
   color: #272142;
